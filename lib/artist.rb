@@ -10,4 +10,8 @@ def add_song(song)
   song.artist = self
 end
 
+def songs
+  song.all.select{|song| song.artist = self}
+end
+
   end
