@@ -7,10 +7,11 @@ attr_accessor :name, :songs
 def initialize(name)
   @name = name
   @songs = []  #puts instances of songs into empty array?
+  save
 end
 
 def add_song(song)
-  self.songs << song #Artist.songs reader? returns songs hopefully
+  @songs << song #Artist.songs reader? returns songs hopefully
 end
 
 def save
