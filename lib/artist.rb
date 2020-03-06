@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def add_song(song)
-  song.artist = self
+  self.songs << song #Artist.songs reader? returns songs hopefully
 end
 
 def songs
