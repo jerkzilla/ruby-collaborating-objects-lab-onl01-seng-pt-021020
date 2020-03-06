@@ -1,3 +1,5 @@
+require 'pry'
+
 class Artist
 attr_accessor :name, :songs
 @@all = [] #stores all instances of Artist class
@@ -13,6 +15,7 @@ end
 
 def save
   @@all << self #saves instances of Artist in @@all variable
+binding.pry
 end
 
   def self.all #class meth all returns all instances of Artist
