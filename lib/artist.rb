@@ -6,7 +6,8 @@ attr_accessor :name, :songs
 
 def initialize(name)
   @name = name
-  @songs = []  #puts instances of songs into empty array?
+  @songs = [] 
+  save #puts instances of songs into empty array?
 end
 
 def add_song(song)
