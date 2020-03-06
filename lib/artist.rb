@@ -20,7 +20,7 @@ end
 
   def self.all #class meth all returns all instances of Artist
     @@all
-    binding.pry
+    #binding.pry
   end
 
   def self.find_or_create_by_name(name) #find or create class meth to create instances?
