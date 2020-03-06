@@ -15,11 +15,12 @@ end
 
 def save
   @@all << self #saves instances of Artist in @@all variable
-binding.pry
+
 end
 
   def self.all #class meth all returns all instances of Artist
     @@all
+    binding.pry
   end
 
   def self.find_or_create_by_name(name) #find or create class meth to create instances?
