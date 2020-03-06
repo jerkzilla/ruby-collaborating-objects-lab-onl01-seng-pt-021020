@@ -30,7 +30,7 @@ end
     else
       self.create(name)
     end
-    binding.pry
+    # binding.pry
   end
 
   def self.find(name) #detects instancs from @@all class variable
