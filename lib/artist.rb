@@ -14,4 +14,8 @@ def songs
   song.all.select{|song| song.artist = self}
 end
 
+  def self.all
+    @@all
+  end
+
   end
