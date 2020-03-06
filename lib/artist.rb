@@ -15,11 +15,7 @@ def save
   @@all << self #saves instances of Artist in @@all variable
 end
 
-def songs
-  song.all.select{|song| song.artist = self}
-end
-
-  def self.all
+  def self.all #class meth all returns all instances of Artist
     @@all
   end
 
