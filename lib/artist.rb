@@ -1,10 +1,10 @@
 class Artist
 attr_accessor :name
-
-@@all = []
+@@all = [] #stores all instances of Artist class
 
 def initialize(name)
   @name = name
+  @songs = []  #puts instances of songs into empty array?
 end
 
 def add_song(song)
